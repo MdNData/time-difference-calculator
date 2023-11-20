@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: sans-serif;
+
+  article {
+    margin-bottom: 35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+  .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root,
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+  .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    color: white;
+  }
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: white;
+  }
+
+  article.results {
+    max-width: 400px;
+    padding: 0 10px;
+
+    h3 {
+      margin-bottom: 25px;
+      font-size: 20px;
+      margin-top: -10px;
+    }
+    p {
+      text-align: left;
+      margin-bottom: 20px;
+      font-size: 16px;
+      span {
+        display: block;
+        margin: 10px 0 0 10px;
+      }
+    }
+  }
+}
