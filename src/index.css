@@ -97,7 +97,10 @@ section article.results p {
   margin-bottom: 20px;
   font-size: 16px;
 }
-section article.results p span {
+section article.results p:first-child span {
   display: block;
   margin: 10px 0 0 10px;
+}
+section article.results p span {
+  margin-left: 10px;
 }/*# sourceMappingURL=index.css.map */
