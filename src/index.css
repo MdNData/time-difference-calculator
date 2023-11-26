@@ -73,15 +73,9 @@ section article {
   width: 100%;
   text-align: center;
 }
-section .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
-section .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root,
-section .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
-section .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
-section .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  color: white;
-}
-section .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border-color: white;
+section article * {
+  color: white !important;
+  border-color: white !important;
 }
 section article.results {
   max-width: 400px;
